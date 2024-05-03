@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./Popins/Poppins-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "poppins";
+}
+.zomatobackground{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./images/zomato-bg.jpg);
+    background-color: #0000008a;
+}
+.zomatobackground header{
+    width: 100%;
+    height: 10%;  
+    display: flex;
+    justify-content: flex-end;
+}
+.zomatobackground1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.first1{
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: large;
+}
+.first2{
+    padding-right: 220px;
+}
+.first3{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 500px;
+    cursor: pointer;
+    font-size: small;
+}
+.area img{
+    width: 20%;
+    height: 11vh;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+#highlight{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+#highlight{
+    color: white;
+}
+.stored{
+    width:50%;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    margin-top: 25px;
+    position:relative;
+    left: 25%;
+    padding: 9px;
+}
+.bimage1{
+    padding-right: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    
+}
+.bimage2{
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.image3{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.head{
+    color: black;
+    font-size: medium;
+}
+.ground{
+    color: black;
+    font-size: large;
+}
+
+.transparent{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+.signup-page{
+width:100%;
+height:100%;
+position:inherit;
+}
+.segment{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: inherit;
+}
+.up{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: x-large;
+    float:right;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    }
+.down{
+    position: relative;
+    width: 30px;
+    height: 28px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-top: 10px;
+} 
+
+.input{
+    width: 80%; 
+    margin-top: 1.5em;
+    margin-left: 2em;
+    height: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pop1{
+    
+    width:40%;
+    height: max-content;
+    z-index: 1;
+    background-color: white;
+    display: block;
+    padding: 0px 1.5rem 1.5rem;
+    box-sizing: inherit;
+    margin:auto;
+    margin-top: 5%;
+    border-radius: 5px;
+
+}
+.box{
+padding-top: 20px;
+}
+.box a{
+    color: red;
+}
+.segment2{
+
+}
+.downbox{
+    width:100%;
+    height:100%;
+    }
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.or::before,
+.or::after{
+    content: "";
+    width: 180px;
+    height:1px;
+    display:block;
+    background-color: black;
+    margin: 0 0.2em;
+}
+.button1 button{
+    width:80%;
+    margin-left: 50px;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid rgba(241, 241, 241, 0.637);
+    box-shadow: 0 0 2px 2px gray;
+    border-radius: 5px;
+}
+.acc button{
+    width:80%;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    background-color:rgb(165, 163, 163); 
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid rgba(241, 241, 241, 0.178);
+   
+}

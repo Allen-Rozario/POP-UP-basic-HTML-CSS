@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./Popins/Poppins-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "poppins";
+}
+.zomatobackground{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./images/zomato-bg.jpg);
+}
+.zomatobackground header{
+    width: 100%;
+    height: 10%;  
+    display: flex;
+    justify-content: flex-end;
+}
+.first1{
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: large;
+}
+.first2{
+    padding-right: 220px;
+}
+.first3{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 500px;
+    cursor: pointer;
+    font-size: small;
+}
+#first4{
+    color: white;
+}
+.area img{
+    width: 20%;
+    height: 11vh;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+#first4{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.data{
+    width:50%;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    margin-top: 25px;
+    position:relative;
+    left: 25%;
+    padding: 9px;
+}
+.background1{
+    padding-right: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    
+}
+.background2{
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.zomatobackground1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    color: black;
+    font-size: medium;
+}
+
+.image1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ground{
+    color: black;
+    font-size: large;
+}
